@@ -105,4 +105,22 @@ span {
   padding: 30px;
   text-align: center;
   list-style: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .groups .group {
+    flex-direction: column;
+    text-align: center;
+  }
+  .testimonials .testimonial {
+    display: block;
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
